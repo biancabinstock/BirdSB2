@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		96EC5FDD1AF6FD5A002DDFAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FDC1AF6FD5A002DDFAA /* main.m */; };
 		96EC5FE01AF6FD5A002DDFAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FDF1AF6FD5A002DDFAA /* AppDelegate.m */; };
-		96EC5FE31AF6FD5A002DDFAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FE21AF6FD5A002DDFAA /* ViewController.m */; };
 		96EC5FE61AF6FD5A002DDFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EC5FE41AF6FD5A002DDFAA /* Main.storyboard */; };
 		96EC5FE81AF6FD5A002DDFAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EC5FE71AF6FD5A002DDFAA /* Images.xcassets */; };
 		96EC5FEB1AF6FD5A002DDFAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EC5FE91AF6FD5A002DDFAA /* LaunchScreen.xib */; };
 		96EC5FF71AF6FD5A002DDFAA /* BirdSB2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FF61AF6FD5A002DDFAA /* BirdSB2Tests.m */; };
+		96EC60021AF6FEA1002DDFAA /* CustomTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC60011AF6FEA1002DDFAA /* CustomTableTableViewController.m */; };
+		96EC60051AF717B0002DDFAA /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC60041AF717B0002DDFAA /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		96EC5FDC1AF6FD5A002DDFAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96EC5FDE1AF6FD5A002DDFAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96EC5FDF1AF6FD5A002DDFAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96EC5FE11AF6FD5A002DDFAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96EC5FE21AF6FD5A002DDFAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		96EC5FE51AF6FD5A002DDFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96EC5FE71AF6FD5A002DDFAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96EC5FEA1AF6FD5A002DDFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		96EC5FF01AF6FD5A002DDFAA /* BirdSB2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdSB2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC5FF51AF6FD5A002DDFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EC5FF61AF6FD5A002DDFAA /* BirdSB2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdSB2Tests.m; sourceTree = "<group>"; };
+		96EC60001AF6FEA1002DDFAA /* CustomTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableTableViewController.h; sourceTree = "<group>"; };
+		96EC60011AF6FEA1002DDFAA /* CustomTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableTableViewController.m; sourceTree = "<group>"; };
+		96EC60031AF717B0002DDFAA /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		96EC60041AF717B0002DDFAA /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,10 @@
 		96EC5FCE1AF6FD5A002DDFAA = {
 			isa = PBXGroup;
 			children = (
+				96EC60031AF717B0002DDFAA /* CustomTableViewCell.h */,
+				96EC60041AF717B0002DDFAA /* CustomTableViewCell.m */,
+				96EC60001AF6FEA1002DDFAA /* CustomTableTableViewController.h */,
+				96EC60011AF6FEA1002DDFAA /* CustomTableTableViewController.m */,
 				96EC5FD91AF6FD5A002DDFAA /* BirdSB2 */,
 				96EC5FF31AF6FD5A002DDFAA /* BirdSB2Tests */,
 				96EC5FD81AF6FD5A002DDFAA /* Products */,
@@ -83,8 +90,6 @@
 			children = (
 				96EC5FDE1AF6FD5A002DDFAA /* AppDelegate.h */,
 				96EC5FDF1AF6FD5A002DDFAA /* AppDelegate.m */,
-				96EC5FE11AF6FD5A002DDFAA /* ViewController.h */,
-				96EC5FE21AF6FD5A002DDFAA /* ViewController.m */,
 				96EC5FE41AF6FD5A002DDFAA /* Main.storyboard */,
 				96EC5FE71AF6FD5A002DDFAA /* Images.xcassets */,
 				96EC5FE91AF6FD5A002DDFAA /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96EC5FE31AF6FD5A002DDFAA /* ViewController.m in Sources */,
 				96EC5FE01AF6FD5A002DDFAA /* AppDelegate.m in Sources */,
 				96EC5FDD1AF6FD5A002DDFAA /* main.m in Sources */,
+				96EC60051AF717B0002DDFAA /* CustomTableViewCell.m in Sources */,
+				96EC60021AF6FEA1002DDFAA /* CustomTableTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

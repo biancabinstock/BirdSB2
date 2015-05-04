@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableTableViewController.h
 //  BirdSB2
 //
 //  Created by Bianca Binstock on 2015-05-03.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomTableTableViewController : UITableViewController
 
 @end
-
