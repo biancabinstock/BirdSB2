@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9670F6C81B07ED5A00004571 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9670F6C71B07ED5A00004571 /* DetailViewController.m */; };
 		96EC5FDD1AF6FD5A002DDFAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FDC1AF6FD5A002DDFAA /* main.m */; };
 		96EC5FE01AF6FD5A002DDFAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FDF1AF6FD5A002DDFAA /* AppDelegate.m */; };
 		96EC5FE61AF6FD5A002DDFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EC5FE41AF6FD5A002DDFAA /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9670F6C61B07ED5A00004571 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9670F6C71B07ED5A00004571 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		96EC5FD71AF6FD5A002DDFAA /* BirdSB2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdSB2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC5FDB1AF6FD5A002DDFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EC5FDC1AF6FD5A002DDFAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 		96EC5FCE1AF6FD5A002DDFAA = {
 			isa = PBXGroup;
 			children = (
+				9670F6C61B07ED5A00004571 /* DetailViewController.h */,
+				9670F6C71B07ED5A00004571 /* DetailViewController.m */,
 				96EC60031AF717B0002DDFAA /* CustomTableViewCell.h */,
 				96EC60041AF717B0002DDFAA /* CustomTableViewCell.m */,
 				96EC60001AF6FEA1002DDFAA /* CustomTableTableViewController.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9670F6C81B07ED5A00004571 /* DetailViewController.m in Sources */,
 				96EC5FE01AF6FD5A002DDFAA /* AppDelegate.m in Sources */,
 				96EC5FDD1AF6FD5A002DDFAA /* main.m in Sources */,
 				96EC60051AF717B0002DDFAA /* CustomTableViewCell.m in Sources */,
@@ -422,6 +428,7 @@
 				96EC5FFC1AF6FD5A002DDFAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96EC5FFD1AF6FD5A002DDFAA /* Build configuration list for PBXNativeTarget "BirdSB2Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				96EC5FFF1AF6FD5A002DDFAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
