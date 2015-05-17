@@ -26,8 +26,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-     birdNames = @[@"Raven", @"BlueJay", @"Eagle", @"Hummingbird", @"Cardinal", @"Woodpecker"];
-    birdImages = @[@"raven", @"bluejay", @"eagle", @"hummingbird", @"cardinal", @"woodpecker"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"birds" ofType:@"plist"];
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    birdNames = [dict objectForKey:@"BirdName"];
+    birdImages = [dict objectForKey:@"Image"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BirdName</key>
+	<array>
+		<string>Raven</string>
+		<string>Blue Jay</string>
+		<string>Eagle</string>
+		<string>Hummingbird</string>
+		<string>Cardinal</string>
+		<string>Woodpecker</string>
+	</array>
+	<key>Image</key>
+	<array>
+		<string>raven.png</string>
+		<string>bluejay.png</string>
+		<string>eagle.png</string>
+		<string>eagle.png</string>
+		<string>hummingbird.png</string>
+		<string>cardinal.png</string>
+		<string>woodpecker.png</string>
+	</array>
+</dict>
+</plist>
