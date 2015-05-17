@@ -32,7 +32,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="hIR-0a-GGr" id="Qzb-Ay-rau"/>
                                     <outlet property="thumbnailImageView" destination="ivj-Cg-vPf" id="YeW-DS-rHn"/>
-                                    <segue destination="bLd-B3-gTW" kind="push" id="yhM-Si-bR5"/>
+                                    <segue destination="bLd-B3-gTW" kind="push" identifier="showBirdDetail" id="yhM-Si-bR5"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="675" y="445"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="QQe-y8-sog">
             <objects>
-                <viewController id="bLd-B3-gTW" sceneMemberID="viewController">
+                <viewController id="bLd-B3-gTW" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AEz-PL-E8E"/>
                         <viewControllerLayoutGuide type="bottom" id="OoK-7v-uI2"/>
@@ -69,6 +69,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="2UW-Cn-gAD"/>
+                    <connections>
+                        <outlet property="birdLabel" destination="dyG-CZ-HKL" id="mya-6m-wnF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fyv-Xg-LGj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

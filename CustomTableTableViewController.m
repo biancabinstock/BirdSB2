@@ -9,6 +9,7 @@
 
 #import "CustomTableTableViewController.h"
 #import "CustomTableViewCell.h"
+#import "DetailViewController.h"
 
 @interface CustomTableTableViewController ()
 
@@ -70,7 +71,13 @@
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     return cell;
 }
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showBirdDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        DetailViewController *destViewController = segue.destinationViewController;
+        destViewController.birdName = [birdNames objectAtIndex:indexPath.row];
+    }
+}
 
 
 /*
