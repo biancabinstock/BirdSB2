@@ -71,11 +71,16 @@
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     return cell;
 }
+
+// sending data to detail view ?Why dont images load?
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"showBirdDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         DetailViewController *destViewController = segue.destinationViewController;
         destViewController.birdName = [birdNames objectAtIndex:indexPath.row];
+//        destViewController.birdImage = [birdImages objectAtIndex:indexPath.row];
     }
 }
 

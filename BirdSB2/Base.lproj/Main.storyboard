@@ -60,17 +60,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyG-CZ-HKL">
-                                <rect key="frame" x="45" y="496" width="176" height="33"/>
+                                <rect key="frame" x="16" y="499" width="176" height="33"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Mj-br-u4J">
+                                <rect key="frame" x="16" y="84" width="288" height="407"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="2UW-Cn-gAD"/>
                     <connections>
                         <outlet property="birdLabel" destination="dyG-CZ-HKL" id="mya-6m-wnF"/>
+                        <outlet property="birdView" destination="5Mj-br-u4J" id="Jkx-4z-1VS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fyv-Xg-LGj" userLabel="First Responder" sceneMemberID="firstResponder"/>

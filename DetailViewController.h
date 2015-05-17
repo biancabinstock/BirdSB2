@@ -11,6 +11,7 @@
 @interface DetailViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UILabel *birdLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *birdView;
 @property (nonatomic, strong) NSString *birdName;
-
+@property (nonatomic, strong) NSString *birdImage;
 @end
