@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9670F6CB1B08E48D00004571 /* birds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = birds.plist; sourceTree = "<group>"; };
+		9670F6CB1B08E48D00004571 /* birds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = birds.plist; path = ../birds.plist; sourceTree = "<group>"; };
 		96EC5FD71AF6FD5A002DDFAA /* BirdSB2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdSB2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC5FDB1AF6FD5A002DDFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EC5FDC1AF6FD5A002DDFAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,7 +82,6 @@
 		96EC5FCE1AF6FD5A002DDFAA = {
 			isa = PBXGroup;
 			children = (
-				9670F6CB1B08E48D00004571 /* birds.plist */,
 				9670F6C91B07F1AF00004571 /* Model */,
 				9670F6CA1B07F1BE00004571 /* Controller */,
 				96EC60031AF717B0002DDFAA /* CustomTableViewCell.h */,
@@ -110,6 +109,7 @@
 				96EC5FDE1AF6FD5A002DDFAA /* AppDelegate.h */,
 				96EC5FDF1AF6FD5A002DDFAA /* AppDelegate.m */,
 				96EC5FE41AF6FD5A002DDFAA /* Main.storyboard */,
+				9670F6CB1B08E48D00004571 /* birds.plist */,
 				96EC5FE71AF6FD5A002DDFAA /* Images.xcassets */,
 				96EC5FE91AF6FD5A002DDFAA /* LaunchScreen.xib */,
 				96EC5FDA1AF6FD5A002DDFAA /* Supporting Files */,
