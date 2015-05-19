@@ -80,7 +80,7 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         DetailViewController *destViewController = segue.destinationViewController;
         destViewController.birdName = [birdNames objectAtIndex:indexPath.row];
-//        destViewController.birdImage = [birdImages objectAtIndex:indexPath.row];
+        destViewController.birdImage = [birdImages objectAtIndex:indexPath.row];
     }
 }
 
