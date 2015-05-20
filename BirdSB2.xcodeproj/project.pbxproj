@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9670F6CC1B08E48D00004571 /* birds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9670F6CB1B08E48D00004571 /* birds.plist */; };
 		9670F6CF1B08ED0400004571 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9670F6CE1B08ED0400004571 /* DetailViewController.m */; };
+		96E96A151B0CFA4D006B6CA0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E96A141B0CFA4D006B6CA0 /* AVFoundation.framework */; };
+		96E96A171B0D07FE006B6CA0 /* bluejaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96E96A161B0D07FE006B6CA0 /* bluejaySong.mp3 */; };
 		96EC5FDD1AF6FD5A002DDFAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FDC1AF6FD5A002DDFAA /* main.m */; };
 		96EC5FE01AF6FD5A002DDFAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EC5FDF1AF6FD5A002DDFAA /* AppDelegate.m */; };
 		96EC5FE61AF6FD5A002DDFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EC5FE41AF6FD5A002DDFAA /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		9670F6CB1B08E48D00004571 /* birds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = birds.plist; path = ../birds.plist; sourceTree = "<group>"; };
 		9670F6CD1B08ED0400004571 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9670F6CE1B08ED0400004571 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		96E96A141B0CFA4D006B6CA0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		96E96A161B0D07FE006B6CA0 /* bluejaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bluejaySong.mp3; sourceTree = "<group>"; };
 		96EC5FD71AF6FD5A002DDFAA /* BirdSB2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdSB2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC5FDB1AF6FD5A002DDFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EC5FDC1AF6FD5A002DDFAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E96A151B0CFA4D006B6CA0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +122,8 @@
 				9670F6CB1B08E48D00004571 /* birds.plist */,
 				96EC5FE71AF6FD5A002DDFAA /* Images.xcassets */,
 				96EC5FE91AF6FD5A002DDFAA /* LaunchScreen.xib */,
+				96E96A161B0D07FE006B6CA0 /* bluejaySong.mp3 */,
+				96E96A141B0CFA4D006B6CA0 /* AVFoundation.framework */,
 				96EC5FDA1AF6FD5A002DDFAA /* Supporting Files */,
 			);
 			path = BirdSB2;
@@ -232,6 +239,7 @@
 				9670F6CC1B08E48D00004571 /* birds.plist in Resources */,
 				96EC5FEB1AF6FD5A002DDFAA /* LaunchScreen.xib in Resources */,
 				96EC5FE81AF6FD5A002DDFAA /* Images.xcassets in Resources */,
+				96E96A171B0D07FE006B6CA0 /* bluejaySong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
