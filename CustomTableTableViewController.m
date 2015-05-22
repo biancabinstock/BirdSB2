@@ -21,6 +21,7 @@
 {
     NSArray *birdNames;
     NSArray *birdImages;
+    NSArray *birdSongs;
 }
 
 
@@ -31,6 +32,7 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     birdNames = [dict objectForKey:@"BirdName"];
     birdImages = [dict objectForKey:@"Image"];
+    birdSongs = [dict objectForKey:@"BirdSong"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -81,6 +83,7 @@
         DetailViewController *destViewController = segue.destinationViewController;
         destViewController.birdName = [birdNames objectAtIndex:indexPath.row];
         destViewController.birdImage = [birdImages objectAtIndex:indexPath.row];
+        destViewController.birdSong = [birdSongs objectAtIndex:indexPath.row];
     }
 }
 

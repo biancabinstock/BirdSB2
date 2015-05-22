@@ -11,7 +11,6 @@
 
 @interface DetailViewController ()
 {
-    
         AVAudioPlayer *_audioPlayer;
 }
 
@@ -26,11 +25,13 @@
     self.birdView.image =[UIImage imageNamed:self.birdImage];
     
        // Construct URL to sound file
-    NSString *path = [NSString stringWithFormat:@"%@/drum01.mp3", [[NSBundle mainBundle] resourcePath]];
-    NSURL *soundUrl = [NSURL fileURLWithPath:path];
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"bluejaySong.mp3" withExtension:nil];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:self.birdSong withExtension:nil];
       // Create audio player object and initialize with URL to sound
-       _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+
+//    trying to initialize the song property
+    
+   
 }
 
 - (void)viewDidAppear:(BOOL)animated
