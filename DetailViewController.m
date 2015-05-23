@@ -3,7 +3,7 @@
 //  BirdSB2
 //
 //  Created by Bianca Binstock on 2015-05-17.
-//  Copyright (c) 2015 Bianca Binstock. All rights reserved.
+//  Copyright (c) 2015 Bianca Binstock. All rights reserved.jkljlkjkl
 //
 
 #import "DetailViewController.h"
@@ -29,15 +29,13 @@
       // Create audio player object and initialize with URL to sound
     _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
 
-//    trying to initialize the song property
-    
-   
+
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [_audioPlayer play];
+   [_audioPlayer play];
 }
 
 @end

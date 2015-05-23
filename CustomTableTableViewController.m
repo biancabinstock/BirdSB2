@@ -28,6 +28,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    first line creates path to plist called birds. secong line creates a dictionary from the plist. next 3 lines defie the the subdictionaries as per their key/value pairing-
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"birds" ofType:@"plist"];
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     birdNames = [dict objectForKey:@"BirdName"];
@@ -56,7 +58,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // Return the number of rows in the section.
+    // Return the number of rows in the section. This will count each item and create a cell acordingly
     return [birdNames count];
 }
 
@@ -65,7 +67,8 @@
 {
     static NSString *cellIdentifier = @"Cell";
     CustomTableViewCell *cell = (CustomTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    
+  
+//    defines the properties of what is in each cell
     cell.nameLabel.text = [birdNames objectAtIndex:indexPath.row];
     cell.thumbnailImageView.image = [UIImage imageNamed:[birdImages objectAtIndex:indexPath.row]];
     
@@ -74,7 +77,7 @@
     return cell;
 }
 
-// sending data to detail view ?Why dont images load?
+// sending data to detail view ?
 
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
